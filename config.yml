@@ -1,0 +1,184 @@
+baseURL: "https://www.hetaoblog.site/"
+title: 无章🪐
+languageCode: zh-cn # en-us
+paginate: 15
+theme: PaperMod
+
+enableInlineShortcodes: true #允许内联短码
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# permalinks: #浏览器链接显示方式
+#   post: "/:year/:month/:day/:title/"
+#   # post: "/:year/:month/:day/:title/"
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 无章🪐
+  # subtitle: "欢迎来到世界边缘👏<br>欢迎光临寒舍👏<br>联系我👇"
+  description: "欢迎来到世界边缘👏欢迎光临寒舍👏联系我👇"
+  keywords: [Blog, He_ta0, 吃核桃不吐核桃壳]
+  author: 吃核桃不吐核桃壳 He_ta0
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2006-01-02 Monday"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["链接", "Twitter"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  ShowLastMod: true
+  showtoc: true
+  tocopen: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "无章🪐"
+    
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "无章🪐"
+    # subtitle: "欢迎来到世界边缘👏<br>欢迎光临寒舍👏<br>联系我👇"
+    Content: 欢迎来到世界边缘👏 <br>欢迎光临寒舍👏 <br>联系我👇
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/hetaozdh"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/hetaozdh"
+    - name: telegram
+      url: "https://t.me/hetaozdh"
+    - name: "discord"
+      url: "https://discord.com/channels/吃核桃不吐核桃壳#0016"
+    - name: "email"
+      url: "mailto:zdh883210zdh@gmail.com"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 20
+    - identifier: links
+      name: 友链
+      url: /links/
+      weight: 20
+    - identifier: search
+      name: 搜索 🔍
+      url: /search/
+
+
+
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
