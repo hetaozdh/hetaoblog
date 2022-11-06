@@ -1,4 +1,4 @@
-baseURL: "https://www.hetaoblog.site/"
+baseURL: ""
 title: 无章🪐
 languageCode: zh-cn # en-us
 paginate: 15
@@ -126,7 +126,7 @@ params:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/hetaozdh/hetaoblog/content/posts/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
