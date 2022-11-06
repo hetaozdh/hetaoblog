@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AWVS on 无章🪐</title>
+    <link>https://www.hetaoblog.site/tags/awvs/</link>
+    <description>Recent content in AWVS on 无章🪐</description>
+    <image>
+      <url>https://www.hetaoblog.site/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.hetaoblog.site/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 25 Jul 2022 15:52:50 +0800</lastBuildDate><atom:link href="https://www.hetaoblog.site/tags/awvs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dokcer破解AWVS和Nessus</title>
+      <link>https://www.hetaoblog.site/posts/dokcer%E7%A0%B4%E8%A7%A3awvs%E5%92%8Cnessus/</link>
+      <pubDate>Mon, 25 Jul 2022 15:52:50 +0800</pubDate>
+      
+      <guid>https://www.hetaoblog.site/posts/dokcer%E7%A0%B4%E8%A7%A3awvs%E5%92%8Cnessus/</guid>
+      <description>记录一下安装Docker版本的破解AWVS和Nessus Docker破解AWVS和Nessus AWVS和Nessus，不多介绍，漏洞扫描器，</description>
+    </item>
+    
+  </channel>
+</rss>
