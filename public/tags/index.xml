@@ -10,7 +10,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Jul 2022 12:48:43 +0800</lastBuildDate><atom:link href="https://www.hetaoblog.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 15:06:39 +0800</lastBuildDate><atom:link href="https://www.hetaoblog.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squad</title>
+      <link>https://www.hetaoblog.site/tags/squad/</link>
+      <pubDate>Sun, 06 Nov 2022 15:06:39 +0800</pubDate>
+      
+      <guid>https://www.hetaoblog.site/tags/squad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>游戏</title>
+      <link>https://www.hetaoblog.site/tags/%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Sun, 06 Nov 2022 15:06:39 +0800</pubDate>
+      
+      <guid>https://www.hetaoblog.site/tags/%E6%B8%B8%E6%88%8F/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Leetcode</title>
       <link>https://www.hetaoblog.site/tags/leetcode/</link>
